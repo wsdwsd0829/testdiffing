@@ -24,7 +24,7 @@
   NSString *path2 = [[NSBundle mainBundle] pathForResource:@"demo2" ofType:@"txt"];
   NSString *content2 = [NSString stringWithContentsOfFile:path2 encoding:NSUTF8StringEncoding error:nil];
   NSLog(@"!!! content2: \n %@\n", content2);
-  NSString *res = [self diffResultFromExpected:content2 actual:content];
+  NSString *res = [self diffResultFromExpected:content actual:content2];
   NSLog(@"!!! res: \n %@\n", res);
   return YES;
 }

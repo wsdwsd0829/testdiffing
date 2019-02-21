@@ -1,0 +1,111 @@
+node_class_name: "ASCollectionView"
+sub_nodes {
+  node_class_name: "_ASCollectionViewCell"
+  sub_nodes {
+    node_class_name: "UIView"
+    sub_nodes {
+      node_class_name: "_ASDisplayView"
+      sub_nodes {
+        label: "My best and funniest friend-Tutu, A Long author name to catch bugs, 6.3M views · Updated yesterday, LIVE, $, Preview only"
+        traits: 1
+        node_class_name: "ASAccessibilityElement"
+        accessibility_elements_count: 0
+        identifier: "eml.cvr"
+        custom_actions {
+          name: "My best and funniest friend-Tutu - play video"
+        }
+        custom_actions {
+          name: "Action menu"
+        }
+      }
+      sub_nodes {
+        node_class_name: "_ASDisplayView"
+        sub_nodes {
+          node_class_name: "_ASDisplayView"
+          sub_nodes {
+            node_class_name: "_ASDisplayView"
+            sub_nodes {
+              label: "LIVE"
+              traits: 64
+              node_class_name: "ASAccessibilityElement"
+              accessibility_elements_count: 0
+            }
+            accessibility_elements_count: 1
+          }
+          accessibility_elements_count: 0
+        }
+        accessibility_elements_count: 0
+      }
+      sub_nodes {
+        node_class_name: "_ASDisplayView"
+        sub_nodes {
+          label: "My best and funniest friend-Tutu"
+          traits: 64
+          node_class_name: "ASAccessibilityElement"
+          accessibility_elements_count: 0
+        }
+        sub_nodes {
+          node_class_name: "_ASDisplayView"
+          sub_nodes {
+            label: "A Long author name to catch bugs"
+            traits: 64
+            node_class_name: "ASAccessibilityElement"
+            accessibility_elements_count: 0
+          }
+          accessibility_elements_count: 1
+        }
+        sub_nodes {
+          node_class_name: "_ASDisplayView"
+          sub_nodes {
+            label: "6.3M views · Updated yesterday"
+            traits: 64
+            node_class_name: "ASAccessibilityElement"
+            accessibility_elements_count: 0
+          }
+          accessibility_elements_count: 1
+        }
+        sub_nodes {
+          node_class_name: "_ASDisplayView"
+          sub_nodes {
+            node_class_name: "_ASDisplayView"
+            sub_nodes {
+              label: "Preview only"
+              traits: 64
+              node_class_name: "ASAccessibilityElement"
+              accessibility_elements_count: 0
+            }
+            sub_nodes {
+              node_class_name: "_ASDisplayView"
+              sub_nodes {
+                label: "$"
+                traits: 64
+                node_class_name: "ASAccessibilityElement"
+                accessibility_elements_count: 0
+              }
+              accessibility_elements_count: 1
+            }
+            accessibility_elements_count: 1
+          }
+          accessibility_elements_count: 0
+        }
+        accessibility_elements_count: 1
+      }
+      sub_nodes {
+        node_class_name: "_ASDisplayView"
+        accessibility_elements_count: 0
+      }
+      accessibility_elements_count: 1
+    }
+    accessibility_elements_count: 0
+  }
+  accessibility_elements_count: 0
+}
+sub_nodes {
+  node_class_name: "UIImageView"
+  accessibility_elements_count: 0
+}
+sub_nodes {
+  node_class_name: "UIImageView"
+  accessibility_elements_count: 0
+}
+accessibility_elements_count: 0

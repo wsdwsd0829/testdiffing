@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DiffMatchPatch.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   // Override point for customization after application launch.
+  NSString *path = [[NSBundle mainBundle] pathForResource:@"demo1" ofType:@"txt"];
+  NSString *content = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
+  NSLog(@"!!! content: \n %@\n", content);
+  NSString *path2 = [[NSBundle mainBundle] pathForResource:@"demo2" ofType:@"txt"];
+  NSString *content2 = [NSString stringWithContentsOfFile:path2 encoding:NSUTF8StringEncoding error:nil];
+  NSLog(@"!!! content2: \n %@\n", content2);
+  NSString *res = [self diffResultFromExpected:content2 actual:content];
+  NSLog(@"!!! res: \n %@\n", res);
   return YES;
 }
 
@@ -45,6 +54,13 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
   // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (NSString *)diffResultFromExpected:(NSString *)expected actual:(NSString *)actual {
+  DiffMatchPatch *diffMP = [[DiffMatchPatch alloc] init];
+  NSMutableArray *diffs = [diffMP diff_mainOfOldString:expected andNewString:actual checkLines:YES];
+  NSString *textHtml = [diffMP diff_prettyHtml:diffs];
+  return [textHtml stringByReplacingOccurrencesOfString:@"&para;" withString:@""];
 }
 
 

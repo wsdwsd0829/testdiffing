@@ -15,6 +15,14 @@
 		C0BDCA5C221E2F1100E0B7E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BDCA5B221E2F1100E0B7E4 /* main.m */; };
 		C0BDCA66221E2F1100E0B7E4 /* diffingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BDCA65221E2F1100E0B7E4 /* diffingTests.m */; };
 		C0BDCA71221E2F1100E0B7E4 /* diffingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BDCA70221E2F1100E0B7E4 /* diffingUITests.m */; };
+		C0BDCA8D221E2F6D00E0B7E4 /* DiffMatchPatchCFUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = C0BDCA80221E2F6D00E0B7E4 /* DiffMatchPatchCFUtilities.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C0BDCA8E221E2F6D00E0B7E4 /* NSString+UriCompatibility.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BDCA81221E2F6D00E0B7E4 /* NSString+UriCompatibility.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C0BDCA8F221E2F6D00E0B7E4 /* NSString+JavaSubstring.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BDCA84221E2F6D00E0B7E4 /* NSString+JavaSubstring.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C0BDCA90221E2F6D00E0B7E4 /* NSString+UnicharUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BDCA86221E2F6D00E0B7E4 /* NSString+UnicharUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C0BDCA91221E2F6D00E0B7E4 /* DiffMatchPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BDCA87221E2F6D00E0B7E4 /* DiffMatchPatch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C0BDCA92221E2F6D00E0B7E4 /* NSMutableDictionary+DMPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BDCA89221E2F6D00E0B7E4 /* NSMutableDictionary+DMPExtensions.m */; };
+		C0EA0F14221E323000243AF6 /* demo2.txt in Resources */ = {isa = PBXBuildFile; fileRef = C0EA0F12221E323000243AF6 /* demo2.txt */; };
+		C0EA0F15221E323000243AF6 /* demo1.txt in Resources */ = {isa = PBXBuildFile; fileRef = C0EA0F13221E323000243AF6 /* demo1.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,22 @@
 		C0BDCA6C221E2F1100E0B7E4 /* diffingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diffingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BDCA70221E2F1100E0B7E4 /* diffingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = diffingUITests.m; sourceTree = "<group>"; };
 		C0BDCA72221E2F1100E0B7E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0BDCA7F221E2F6D00E0B7E4 /* NSString+UnicharUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UnicharUtilities.h"; sourceTree = "<group>"; };
+		C0BDCA80221E2F6D00E0B7E4 /* DiffMatchPatchCFUtilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DiffMatchPatchCFUtilities.c; sourceTree = "<group>"; };
+		C0BDCA81221E2F6D00E0B7E4 /* NSString+UriCompatibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UriCompatibility.m"; sourceTree = "<group>"; };
+		C0BDCA82221E2F6D00E0B7E4 /* MinMaxMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinMaxMacros.h; sourceTree = "<group>"; };
+		C0BDCA83221E2F6D00E0B7E4 /* NSString+JavaSubstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JavaSubstring.h"; sourceTree = "<group>"; };
+		C0BDCA84221E2F6D00E0B7E4 /* NSString+JavaSubstring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JavaSubstring.m"; sourceTree = "<group>"; };
+		C0BDCA85221E2F6D00E0B7E4 /* DiffMatchPatch_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiffMatchPatch_Prefix.pch; sourceTree = "<group>"; };
+		C0BDCA86221E2F6D00E0B7E4 /* NSString+UnicharUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UnicharUtilities.m"; sourceTree = "<group>"; };
+		C0BDCA87221E2F6D00E0B7E4 /* DiffMatchPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiffMatchPatch.m; sourceTree = "<group>"; };
+		C0BDCA88221E2F6D00E0B7E4 /* DiffMatchPatchCFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiffMatchPatchCFUtilities.h; sourceTree = "<group>"; };
+		C0BDCA89221E2F6D00E0B7E4 /* NSMutableDictionary+DMPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+DMPExtensions.m"; sourceTree = "<group>"; };
+		C0BDCA8A221E2F6D00E0B7E4 /* NSString+UriCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UriCompatibility.h"; sourceTree = "<group>"; };
+		C0BDCA8B221E2F6D00E0B7E4 /* NSMutableDictionary+DMPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+DMPExtensions.h"; sourceTree = "<group>"; };
+		C0BDCA8C221E2F6D00E0B7E4 /* DiffMatchPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiffMatchPatch.h; sourceTree = "<group>"; };
+		C0EA0F12221E323000243AF6 /* demo2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = demo2.txt; sourceTree = "<group>"; };
+		C0EA0F13221E323000243AF6 /* demo1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = demo1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +125,11 @@
 		C0BDCA4B221E2F1000E0B7E4 /* diffing */ = {
 			isa = PBXGroup;
 			children = (
+				C0BDCA7E221E2F4300E0B7E4 /* difflib */,
 				C0BDCA4C221E2F1000E0B7E4 /* AppDelegate.h */,
 				C0BDCA4D221E2F1000E0B7E4 /* AppDelegate.m */,
+				C0EA0F13221E323000243AF6 /* demo1.txt */,
+				C0EA0F12221E323000243AF6 /* demo2.txt */,
 				C0BDCA4F221E2F1000E0B7E4 /* ViewController.h */,
 				C0BDCA50221E2F1000E0B7E4 /* ViewController.m */,
 				C0BDCA52221E2F1000E0B7E4 /* Main.storyboard */,
@@ -130,6 +157,27 @@
 				C0BDCA72221E2F1100E0B7E4 /* Info.plist */,
 			);
 			path = diffingUITests;
+			sourceTree = "<group>";
+		};
+		C0BDCA7E221E2F4300E0B7E4 /* difflib */ = {
+			isa = PBXGroup;
+			children = (
+				C0BDCA85221E2F6D00E0B7E4 /* DiffMatchPatch_Prefix.pch */,
+				C0BDCA8C221E2F6D00E0B7E4 /* DiffMatchPatch.h */,
+				C0BDCA87221E2F6D00E0B7E4 /* DiffMatchPatch.m */,
+				C0BDCA80221E2F6D00E0B7E4 /* DiffMatchPatchCFUtilities.c */,
+				C0BDCA88221E2F6D00E0B7E4 /* DiffMatchPatchCFUtilities.h */,
+				C0BDCA82221E2F6D00E0B7E4 /* MinMaxMacros.h */,
+				C0BDCA8B221E2F6D00E0B7E4 /* NSMutableDictionary+DMPExtensions.h */,
+				C0BDCA89221E2F6D00E0B7E4 /* NSMutableDictionary+DMPExtensions.m */,
+				C0BDCA83221E2F6D00E0B7E4 /* NSString+JavaSubstring.h */,
+				C0BDCA84221E2F6D00E0B7E4 /* NSString+JavaSubstring.m */,
+				C0BDCA7F221E2F6D00E0B7E4 /* NSString+UnicharUtilities.h */,
+				C0BDCA86221E2F6D00E0B7E4 /* NSString+UnicharUtilities.m */,
+				C0BDCA8A221E2F6D00E0B7E4 /* NSString+UriCompatibility.h */,
+				C0BDCA81221E2F6D00E0B7E4 /* NSString+UriCompatibility.m */,
+			);
+			name = difflib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0BDCA59221E2F1100E0B7E4 /* LaunchScreen.storyboard in Resources */,
+				C0EA0F15221E323000243AF6 /* demo1.txt in Resources */,
 				C0BDCA56221E2F1100E0B7E4 /* Assets.xcassets in Resources */,
+				C0EA0F14221E323000243AF6 /* demo2.txt in Resources */,
 				C0BDCA54221E2F1000E0B7E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0BDCA90221E2F6D00E0B7E4 /* NSString+UnicharUtilities.m in Sources */,
+				C0BDCA91221E2F6D00E0B7E4 /* DiffMatchPatch.m in Sources */,
 				C0BDCA51221E2F1000E0B7E4 /* ViewController.m in Sources */,
+				C0BDCA8F221E2F6D00E0B7E4 /* NSString+JavaSubstring.m in Sources */,
 				C0BDCA5C221E2F1100E0B7E4 /* main.m in Sources */,
+				C0BDCA92221E2F6D00E0B7E4 /* NSMutableDictionary+DMPExtensions.m in Sources */,
 				C0BDCA4E221E2F1000E0B7E4 /* AppDelegate.m in Sources */,
+				C0BDCA8E221E2F6D00E0B7E4 /* NSString+UriCompatibility.m in Sources */,
+				C0BDCA8D221E2F6D00E0B7E4 /* DiffMatchPatchCFUtilities.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
